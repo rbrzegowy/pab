@@ -7,8 +7,12 @@ npm init -y
 npm install typescript
 5. Install Express library  
 npm install express
-6. Create file index.ts  
-7. Create simple API server. Copy code to index.ts  
+6. Install node types info library  
+npm install @types/node  
+7. Create file .gitignore in project folder  
+Fill it with content: node_modules
+8. Create file index.ts  
+9. Create simple API server. Copy code to index.ts  
 ```typescript
 const express = require('express')  
 const app = express()  
@@ -19,14 +23,14 @@ app.listen(3000)
 ```
 This server will responsd at localhost:3000 address.  
   
-7. Transpile ts to js  
+10. Transpile ts to js  
 npx tsc index.ts
-8. Run js script  
+11. Run js script  
 node index.js  
-9. Check your server. Use browser and navigate to url localhost:3000  
+12. Check your server. Use browser and navigate to url localhost:3000  
 Does it work? Great.    
   
-10. Modify your script - create simple calculator.  
+13. Modify your script - create simple calculator.  
 * Pass three GET args to script: operation, num1, num2  
 * allowed operations:  "add", "substract", "multiply", "divide"  
 * num1, num2 are numbers  

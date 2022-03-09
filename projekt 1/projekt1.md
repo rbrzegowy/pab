@@ -7,8 +7,12 @@ npm init -y
 npm install typescript
 5. Zainstaluj bibliotekę Express  
 npm install express
-6. Utwórz plik index.ts  
-7. Utwórz najprostszy serwer api. Skopiuj kod do pliku index.ts  
+6. Zainstaluj informacje o typach node  
+npm install @types/node  
+7. W glównym katalogu utwórz plik .gitignore  
+W pliku umieść treść: node_modules
+8. Utwórz plik index.ts  
+9. Utwórz najprostszy serwer api. Skopiuj kod do pliku index.ts  
 ```typescript
 const express = require('express')  
 const app = express()  
@@ -19,14 +23,14 @@ app.listen(3000)
 ```
 Powyższy serwer będzie nasłuchiwał pod adresem localhost:3000.  
   
-7. Zamień ts na js  
+10. Zamień ts na js  
 npx tsc index.ts
-8. Uruchom skrypt  
+11. Uruchom skrypt  
 node index.js  
-9. Sprawdź działanie w przeglądarce wchodząc na adres localhost:3000  
+12. Sprawdź działanie w przeglądarce wchodząc na adres localhost:3000  
 Działa? Świetnie.  
   
-10. Zmodyfikuj skrypt tak, by zadziałał jako prosty kalkulator.  
+13. Zmodyfikuj skrypt tak, by zadziałał jako prosty kalkulator.  
 * Do skryptu przekaz trzy parametry GET: operation, num1, num2  
 * operation to "dodaj", "usun", "podziel", "pomnoz"  
 * num1, num2 to liczby  
