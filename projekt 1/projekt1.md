@@ -9,14 +9,14 @@ npm install typescript
 npm install express
 6. Utwórz plik index.ts  
 7. Utwórz najprostszy serwer api. Skopiuj kod do pliku index.ts  
-  
+```typescript
 const express = require('express')  
 const app = express()  
 app.get('/', function (req, res) {  
   res.send('Hello World')  
 })  
 app.listen(3000)  
-  
+```
 Powyższy serwer będzie nasłuchiwał pod adresem localhost:3000.  
   
 7. Zamień ts na js  
