@@ -33,8 +33,9 @@ Inne narzędzia:
 1. Zainicjalizuj nowy projekt (npm init -y)
 2. Utwórz główny plik projektu: /src/index.ts (skopiuj zawartość z repo projektu)
 2. Zainstaluj pakiety npm: *typescript, express, nodemon, ts-node, @types/node, @types/express*
-3. Uruchom projekt korzystając z narzędzia nodemon: nodemon index.ts
-
+3. Dodaj wpis do sekcji *script* w package.json:  
+ *"start": "nodemon ./src/index.ts"*
+3. Uruchom projekt korzystając z npm. Wpisz w linii poleceń: npm start
 > #### Przydamisie
 > - generowanie daty w TS: const date = new Date(). Generowanie isostring z daty: date.toISOString()
 > - tworzenie "unikalnych" id-kow: Date.now()
