@@ -4,8 +4,8 @@ W pierwszym etapie tworzymy api do CRUD notatek.
 ### Model notatki
 - title (string)
 - content (string)
-- createDate  (string - data w formmacie ISO)
-- tags (string[])
+- createDate?  (string - data w formmacie ISO)
+- tags? (string[])
 - id? (number)
 ### Funkcjonalności:  
 1. Dodanie nowej notatki.
