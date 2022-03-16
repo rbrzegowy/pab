@@ -10,7 +10,7 @@ app.get('/', function (req: Request, res: Response) {
 })
 app.post('/', function (req: Request, res: Response) {
   console.log(req.body) // e.x. req.body.title 
-  res.sendStatus(200).send('POST Hello World')
+  res.status(200).send('POST Hello World')
 })
 
 app.listen(3000)
