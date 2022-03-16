@@ -41,3 +41,4 @@ Inne narzędzia:
 > - tworzenie "unikalnych" id-kow: Date.now()
 > - tworzenie JSON-a z obiektu: *const jsonData = JSON.stringify(data)*. 
 > - tworzenie obiektu z JSON-a: *const data = JSON.parse(jsonData)*
+> jeśli chcesz wysłać jsona (np. z zapytania GET o notatkę), to nie musisz tworzyć JSON-a - express zrobi to za Ciebie (czyli np. res.send(note))
