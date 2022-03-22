@@ -8,7 +8,7 @@ Pobiera listę notatek
 Endpoint GET */notes*  
 Zwraca kod 200 wraz z listą notatek. Jeśli błąd zwraca 400 z opisem błędu
 2. CRUD do tagów (analogicznie do notatek).  
-Załozenie - tagi są unikalnymi stringami (unikalnymi bez uwzględniania wielkości znaków - wsei i WSEI to ten sam tag)  
+Założenie - tagi są unikalnymi stringami (unikalnymi bez uwzględniania wielkości znaków - wsei i WSEI to ten sam tag)  
 Adresy endpointów: */tag*, lista tagów: */tags*
 3. Zmodyfikuj logikę endpointów dodawania i edycji notatki - jeśli podanych w notatce tagów nie ma na liście, to automatycznie dodajemy nowe tagi do listy.
 4. Wykorzystaj system plików do zapisu informacji o tagach i notatkach.  
@@ -36,4 +36,4 @@ Adresy endpointów: */tag*, lista tagów: */tags*
 >       console.log(err)
 >   }
 >}
->``>`
+>
