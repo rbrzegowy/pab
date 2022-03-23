@@ -10,7 +10,7 @@ Zwraca kod 200 wraz z listą notatek. Jeśli błąd zwraca 400 z opisem błędu
 2. Zbuduj Api do tagów - lista tagów oraz CRUD tag-u (analogicznie do notatek).  
 Model tag-u:
 - id?: number
-- name: string
+- name: string  
 Adresy endpointów: */tag*, lista tagów: */tags*  
 Tagi powinny być unikalne. Sprawdzania dokonujemy bez uwzględniania wielkości znaków  
 3. Zmodyfikuj model notatki (zmiana tags: string[] na tags: Tag[])
