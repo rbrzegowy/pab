@@ -16,7 +16,7 @@ Tagi powinny być unikalne. Sprawdzania dokonujemy bez uwzględniania wielkości
 3. Zmodyfikuj model notatki (zmiana tags: string[] na tags: number[])
 4. Zmodyfikuj logikę endpointów dodawania i edycji notatki - jeśli podanych w notatce tagów nie ma na liście, to automatycznie dodajemy nowe tagi do listy.
 5. Wykorzystaj system plików do zapisu informacji o tagach i notatkach.  
-
+6. Skopiuj plik konfiguracyjny do nodemon (ignorowanie zmian w pliku z danymi)
 > ### Przydamisie
 > - dane w pliku/plikach zapisz w formacie json
 > - do zapisu/odczytu danych z pliku uzyj wbudowanego w node modułu fs  
