@@ -18,6 +18,7 @@ Tagi powinny być unikalne. Sprawdzania dokonujemy bez uwzględniania wielkości
 5. Wykorzystaj system plików do zapisu informacji o tagach i notatkach.  
 6. Skopiuj plik konfiguracyjny do nodemon (ignorowanie zmian w pliku z danymi)
 > ### Przydamisie
+> - zamiana ciągu tekstowego na małe litery: someStr.toLowerCase()
 > - dane w pliku/plikach zapisz w formacie json
 > - do zapisu/odczytu danych z pliku uzyj wbudowanego w node modułu fs  
 > #### Odczyt z pliku
