@@ -7,11 +7,15 @@ Etap drugi - lista notatek, tagi, zapis danych w pliku.
 Pobiera listę notatek  
 Endpoint GET */notes*  
 Zwraca kod 200 wraz z listą notatek. Jeśli błąd zwraca 400 z opisem błędu
-2. CRUD do tagów (analogicznie do notatek).  
-Założenie - tagi są unikalnymi stringami (unikalnymi bez uwzględniania wielkości znaków - wsei i WSEI to ten sam tag)  
-Adresy endpointów: */tag*, lista tagów: */tags*
-3. Zmodyfikuj logikę endpointów dodawania i edycji notatki - jeśli podanych w notatce tagów nie ma na liście, to automatycznie dodajemy nowe tagi do listy.
-4. Wykorzystaj system plików do zapisu informacji o tagach i notatkach.  
+2. Zbuduj Api do tagów - lista tagów oraz CRUD tag-u (analogicznie do notatek).  
+Model tag-u:
+- id: number
+- name: string
+Adresy endpointów: */tag*, lista tagów: */tags*  
+Tagi powinny być unikalne. Sprawdzania dokonujemy bez uwzględniania wielkości znaków  
+3. Zmodyfikuj model notatki (zmiana tags: string[] na tags: number[])
+4. Zmodyfikuj logikę endpointów dodawania i edycji notatki - jeśli podanych w notatce tagów nie ma na liście, to automatycznie dodajemy nowe tagi do listy.
+5. Wykorzystaj system plików do zapisu informacji o tagach i notatkach.  
 
 > ### Przydamisie
 > - dane w pliku/plikach zapisz w formacie json
