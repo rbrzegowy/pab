@@ -15,8 +15,12 @@ Etap piąty - mongodb
  
 > ### Przydamisie
 >
-> Odczytywanie danych z pliku json:  
-> 1. const config = await import(__dirname + '/config.json')  
+> 1. Odczytywanie danych z pliku json:  
+> ```const config = await import(__dirname + '/config.json')```  
 > (jeśli chcesz importować w ts-ie pliki json, włącz flagę esModuleInterop w tsconfig.json)  
-> 1. fs.readFile - możesz odczytać i sparsować plik konfiguracyjny tak samo, jak plik z danymi.
+lub  
+```fs.readFile```  
+możesz odczytać i sparsować plik konfiguracyjny tak samo, jak plik z danymi.
 > 1. Praca z mongodb w node - konwersatoria
+> 1. Tworzenie pliku tsconfig.json:  
+>```tsc --init```
