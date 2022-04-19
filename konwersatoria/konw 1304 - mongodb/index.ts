@@ -3,7 +3,7 @@ import { ChangeStreamDocument } from "mongodb";
 import mongoose from "mongoose";
 
 // connection string
-const connString = 'mongodb+srv://pabapp:pabapp1@programowanieaplikacjib.gidyy.mongodb.net/pab?retryWrites=true&w=majority'
+const connString = 'WKLEJ SWOJ CONN STRING'
 
 
 // model dokumentu
