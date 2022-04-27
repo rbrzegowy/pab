@@ -15,7 +15,7 @@ Przy tworzeniu zamówienia można podać sumaryczną kwotę (jeśli nie podana, 
 Raporty zamówień:
 - raport zamówień per kelner
 - raport zamowień we wskazanym okresie czasu
-- raport przychdów we wskazanym okresie czasu
+- raport przychodów we wskazanym okresie czasu
 
 ### Modele danych
 Restauracja:  
@@ -34,7 +34,7 @@ Pracownik
 Stolik
 - nazwa
 - iloscOsob
-- status (np. wolny/zajety/niedostepny)
+- status (np. wolny/zajęty/niedostępny)
 
 Rezerwacja
 - stolik
